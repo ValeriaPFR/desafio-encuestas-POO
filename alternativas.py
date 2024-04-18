@@ -7,4 +7,3 @@ class Alternativas:
     #mostrar alternativas
     def mostrar_alternativa(self, ):
         pass
-
