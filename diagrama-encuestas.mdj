@@ -702,7 +702,7 @@
 											"top": 477,
 											"width": 136.82080078125,
 											"height": 13,
-											"text": "+respuestas.append()",
+											"text": "+respuestas_append()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -3369,7 +3369,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGO49oWE8BtxNQ="
 							},
-							"name": "respuestas.append"
+							"name": "respuestas_append"
 						}
 					]
 				},
