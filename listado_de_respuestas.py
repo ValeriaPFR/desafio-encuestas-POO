@@ -12,7 +12,7 @@ None
     def __init__(self, elf, correo:str, respuestas:list):
         self.__lista_respuestas = respuestas
         self.__correo = correo 
-    #método para ingresar las respuestaas en una lista
+    #método para ingresar las respuestaas en una lista vacia
     def respuestas_append(self, ):
         pass
 
