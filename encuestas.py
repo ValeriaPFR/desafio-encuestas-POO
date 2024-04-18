@@ -1,4 +1,4 @@
-from preguntas import Pregunta  # Importa la clase Pregunta desde el módulo preguntas
+from preguntas import Preguntas  # Importa la clase Preguntas desde el módulo preguntas
 
 class Encuestas:
     def __init__(self, nombre: str, listado_preguntas: list, listado_respuestas=None):
