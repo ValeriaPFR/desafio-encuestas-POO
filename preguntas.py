@@ -1,6 +1,6 @@
 from alternativas import Alternativas
 
-class Preguntas:
+class Pregunta:
     """
     Clase para representar las preguntas en una encuesta.
 
@@ -15,7 +15,7 @@ class Preguntas:
     """
     def __init__(self, enunciado: str, ayuda: str, requerido: bool, alternativas: list):
         """
-        Constructor de la clase 'Preguntas'.
+        Constructor de la clase 'Pregunta'.
 
         Args:
             enunciado (str): El enunciado de la pregunta.
@@ -44,7 +44,7 @@ if __name__ == "__main__":
         {"contenido": "contenidos_3", "pista": "pista_3"}
     ]
 
-    pregunta = Preguntas("enunciado1", "pista_1", True, alternativas)
+    pregunta = Pregunta("enunciado1", "pista_1", True, alternativas)
 
     for dicc in alternativas:
         print(dicc)
