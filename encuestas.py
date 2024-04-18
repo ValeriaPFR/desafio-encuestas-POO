@@ -33,6 +33,7 @@ class Encuestas:
         print("Respuestas:")
         if self.listado_respuestas:
             for respuesta in self.listado_respuestas:
-                print(f"- {respuesta}")  # Imprime cada respuesta en la lista de respuestas
+                print(f"- {respuesta}")  # Imprime cada respuesta en la lista de respuestas 
+                #El guion previo a {preguntas} indica que tel texto esta relacionado con algun tipo de elemento de una lista o enumeracion
         else:
             print("Por favor ingrese respuesta.")  # Imprime un mensaje si no hay respuestas
