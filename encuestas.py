@@ -14,7 +14,7 @@ class Encuestas:
         """
         self.nombre = nombre  # Asigna el nombre de la encuesta
         # Crea una lista de instancias de la clase 'Pregunta' a partir de los diccionarios de las preguntas
-        self.listado_preguntas = [Pregunta(dicc["enunciado"], dicc["ayuda"]) for dicc in listado_preguntas]
+        self.listado_preguntas = [Preguntas(dicc["enunciado"], dicc["ayuda"]) for dicc in listado_preguntas]
         
         # Inicializa la lista de respuestas como vacía si no se proporciona
         self.listado_respuestas = listado_respuestas if listado_respuestas is not None else []
