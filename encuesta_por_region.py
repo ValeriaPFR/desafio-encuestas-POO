@@ -1,6 +1,6 @@
-from encuestas import Encuestas
+from encuestas import Encuesta
 
-class EncuestaPorRegion(Encuestas):   
+class EncuestaPorRegion(Encuesta):   
     """
     Clase para representar una encuesta especifica por region.
 
@@ -23,7 +23,7 @@ class EncuestaPorRegion(Encuestas):
         self.region = region
         self.listado_region = listado_region if listado_region is not None else []
 
-    def agregar_listado_respuestas(self):
+    def agregar_listado_respuesta(self):
         """
         Verifica si la region de la encuesta está en la lista de regiones validas.
         """
@@ -36,4 +36,4 @@ regiones = [8, 9, 10]  # Lista de regiones validas
 
 if __name__ == "__main__":
     encuesta_region = EncuestaPorRegion(8, regiones)
-    encuesta_region.agregar_listado_respuestas()
+    encuesta_region.agregar_listado_respuesta()
