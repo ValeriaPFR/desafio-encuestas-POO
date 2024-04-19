@@ -668,7 +668,7 @@
 											"top": 454,
 											"width": 136.82080078125,
 											"height": 13,
-											"text": "#lista_respuestas: list",
+											"text": "#lista_respuesta: list",
 											"horizontalAlignment": 0
 										}
 									],
@@ -702,7 +702,7 @@
 											"top": 477,
 											"width": 136.82080078125,
 											"height": 13,
-											"text": "+respuestas_append()",
+											"text": "+respuesta_append()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2459,7 +2459,7 @@
 											"top": 261,
 											"width": 177.68701171875,
 											"height": 13,
-											"text": "+agregar_listado_respuestas()",
+											"text": "+agregar_listado_respuesta()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -3357,7 +3357,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGO49oWE8BtxNQ="
 							},
-							"name": "lista_respuestas",
+							"name": "lista_respuesta",
 							"visibility": "protected",
 							"type": "list"
 						}
@@ -3369,7 +3369,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGO49oWE8BtxNQ="
 							},
-							"name": "respuestas_append"
+							"name": "respuesta_append"
 						}
 					]
 				},
@@ -3608,7 +3608,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGO5F1i/h/2jj0="
 							},
-							"name": "agregar_listado_respuestas"
+							"name": "agregar_listado_respuesta"
 						}
 					]
 				},
