@@ -1,4 +1,4 @@
-#definicion de clase 'Alternativas'
+#definicion de clase 'Alternativa'
 class Alternativa:
     #constructor 
     def __init__(self, contenido, ayuda):
