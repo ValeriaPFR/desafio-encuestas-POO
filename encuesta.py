@@ -1,6 +1,6 @@
-from pregunta import Pregunta  # Importa la clase 'Preguntas' desde el modulo pregunta
+from pregunta import Pregunta  # Importa la clase 'Pregunta' desde el modulo pregunta
 
-class Encuestas:
+class Encuesta:
     def __init__(self, nombre: str, listado_pregunta: list, listado_respuesta=None):
         """
         Constructor de la clase 'Encuesta'.
@@ -14,7 +14,7 @@ class Encuestas:
         """
         self.nombre = nombre  # Asigna el nombre de la encuesta
         # Crea una lista de instancias de la clase 'Pregunta' a partir de los diccionarios de las preguntas
-        self.listado_pregunta = [Preguntas(dicc["enunciado"], dicc["ayuda"]) for dicc in listado_pregunta]
+        self.listado_pregunta = [Pregunta(dicc["enunciado"], dicc["ayuda"]) for dicc in listado_pregunta]
         
         # Inicializa la lista de respuestas como vacía si no se proporciona
         self.listado_respuesta = listado_respuesta if listado_respuesta is not None else []
