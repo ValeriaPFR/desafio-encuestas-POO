@@ -1,6 +1,6 @@
-from encuestas import Encuestas
+from encuesta import Encuesta
 
-class EncuestaPorEdad(Encuestas):
+class EncuestaPorEdad(Encuesta):
     """
 Una clase para manejar encuestas basadas en grupos de edad.
 
